@@ -37,4 +37,7 @@ cd linux
 KERNEL=kernel7
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- bcm2709_defconfig
 ~~~
+
+ - build
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- zImage modules dtbs
   
